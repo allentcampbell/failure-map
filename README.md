@@ -32,6 +32,23 @@ failure-map forces that question before the change happens.
 
 ---
 
+## How Failure Map Works
+
+```mermaid
+flowchart LR
+    A[System or workflow] --> B[Map fragility]
+    B --> C[Write plausible future incidents]
+    C --> D[Identify impact]
+    D --> E[Choose hardening action]
+
+    E --> F[Test]
+    E --> G[SOP]
+    E --> H[Alert]
+    E --> I[Refactor]
+```
+
+---
+
 ## File Structure
 
 ```
