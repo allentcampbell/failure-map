@@ -37,12 +37,12 @@ failure-map forces that question before the change happens.
 ```
 failure-map/
 ├── README.md
-├── LICENSE
+├── LICENSE.md
 ├── prompts/
 │   └── failure-map.md        <- the main prompt
 └── examples/
-    ├── construction-bid-assistant.md
-    ├── shopify-erp-sync.md
+    ├── content-publishing-workflow.md
+    ├── ecommerce-erp-sync.md
     └── ai-memory-layer.md
 ```
 
@@ -65,8 +65,8 @@ No special tooling required. The output is a markdown report you keep alongside 
 
 See the `/examples` folder for worked failure maps across three real-world scenarios:
 
-- **construction-bid-assistant.md** - An AI assistant that helps contractors generate bids
-- **shopify-erp-sync.md** - A Shopify-to-ERP order sync integration
+- **content-publishing-workflow.md** - An AI-assisted content creation, review, scheduling, and distribution workflow
+- **ecommerce-erp-sync.md** - An ecommerce-to-ERP order sync integration
 - **ai-memory-layer.md** - A persistent memory layer for an AI agent system
 
 ---
@@ -83,4 +83,6 @@ MIT. Use it, fork it, adapt it.
 
 ---
 
-*Todd Campbell - [Allen T. Consulting](https://allentcampbell.com)The Cartographer Method: Map. Stabilize. Deploy.*
+Built by Todd Campbell  
+[Allen T. Consulting](https://allentcampbell.com)  
+The Cartographer Method: Map. Stabilize. Deploy.
